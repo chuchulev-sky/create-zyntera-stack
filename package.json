@@ -1,0 +1,16 @@
+{
+  "name": "create-zyntera-stack",
+  "version": "0.1.0",
+  "description": "Scaffold the Zyntera fullstack framework",
+  "type": "module",
+  "bin": {
+    "create-zyntera-stack": "./bin/create-zyntera-stack.js"
+  },
+  "files": [
+    "bin",
+    "templates",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT"
+}

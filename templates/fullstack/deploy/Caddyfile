@@ -1,0 +1,17 @@
+YOUR_DOMAIN.com {
+	encode gzip zstd
+
+	# API + auth routes (paths unchanged for Express)
+	handle /api/* {
+		reverse_proxy api:3000
+	}
+
+	handle /health {
+		reverse_proxy api:3000
+	}
+
+	# React SPA (static from nginx container)
+	handle {
+		reverse_proxy web:80
+	}
+}

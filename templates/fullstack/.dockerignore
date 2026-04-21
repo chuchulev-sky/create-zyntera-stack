@@ -1,0 +1,12 @@
+# Secrets & local env
+.env
+.env.*
+!.env.example
+
+# Dependencies & build output
+node_modules
+dist
+coverage
+
+# Frontend (API image does not need the SPA source)
+apps/web

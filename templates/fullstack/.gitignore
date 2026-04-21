@@ -1,0 +1,17 @@
+# Logs & OS
+*.log
+npm-debug.log*
+.DS_Store
+
+# Dependencies
+node_modules
+
+# Environment variables
+.env
+
+# Test / coverage
+coverage
+
+# Vite / caches (optional)
+apps/web/dist
+.vite
